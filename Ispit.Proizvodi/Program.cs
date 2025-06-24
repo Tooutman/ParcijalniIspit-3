@@ -53,6 +53,8 @@ namespace Ispit.Proizvodi
 
             trazeniPolaznik?.PredajOdgovoreNaPitanja();
 
+            //predavac je zaprimio ispit.
+
             predavac.IspitZaprimljen(trazeniPolaznik);
 
         }
